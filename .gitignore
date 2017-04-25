@@ -1,0 +1,5 @@
+/static
+.idea
+db.sqlite3
+parameters.py
+*.pyc

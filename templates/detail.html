@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>{{ i.title }}{{ i.title }} - isur</title>
+
+</head>
+<body>
+    <div class="row">
+        <div class="coi-md-2"></div>
+        <div class="coi-md-8"></div>
+            <h1>{{ news.title}}{{ blog.title}}</h1><br>
+            <i>{{ news.date }}{{ news.date }}</i><br>
+            <i>{{ news.author }}</i><br>
+            <img src="{{ news.image.url }}{{ blog.image.url }}"><br>
+            {{ news.text|safe }}{{blog.text|safe  }}
+        <div class="coi-md-2"></div>
+    </div>
+</body>
+</html>
